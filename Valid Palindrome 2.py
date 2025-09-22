@@ -1,6 +1,7 @@
 # You are given a string s, return true if the s can be a palindrome after deleting at most one character from it.
 # A palindrome is a string that reads the same forward and backward.
 # Note: Alphanumeric characters consist of letters (A-Z, a-z) and numbers (0-9).
+import math
 
 class Solution:
     def validPalindrome(self, s: str) -> bool:

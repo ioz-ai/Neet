@@ -6,6 +6,7 @@
 
 # Your task is to merge the two arrays such that the final merged array is also sorted in non-decreasing order and stored entirely within nums1.
 # You must modify nums1 in-place and do not return anything from the function.
+from typing import List
 
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:

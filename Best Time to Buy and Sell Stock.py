@@ -4,7 +4,7 @@
 
 # Return the maximum profit you can achieve. You may choose to not make any transactions, in which case the profit would be 0.
 
-
+from typing import List
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:

@@ -6,6 +6,7 @@
 # It is not necessary to consider elements beyond the first k positions of the array.
 # To be accepted, the first k elements of nums must contain all the unique elements.
 # Return k as the final result.
+from typing import List
 
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
